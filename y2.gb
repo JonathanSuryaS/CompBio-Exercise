@@ -1,0 +1,65 @@
+LOCUS       NC_064654            3811184 bp    DNA     linear   CON 18-AUG-2022
+DEFINITION  Penicillium oxalicum strain HP7-1 chromosome V, whole genome
+            shotgun sequence.
+ACCESSION   NC_064654
+VERSION     NC_064654.1
+DBLINK      BioProject: PRJNA858119
+            BioSample: SAMN03106237
+            Assembly: GCF_001723175.1
+KEYWORDS    WGS; RefSeq.
+SOURCE      Penicillium oxalicum
+  ORGANISM  Penicillium oxalicum
+            Eukaryota; Fungi; Dikarya; Ascomycota; Pezizomycotina;
+            Eurotiomycetes; Eurotiomycetidae; Eurotiales; Aspergillaceae;
+            Penicillium.
+REFERENCE   1  (bases 1 to 3811184)
+  AUTHORS   Zhao,S., Feng,J.-X. and Li,C.
+  TITLE     Three-dimensional genome map of filamentous fungus Penicillium
+            oxalicum under cellulose induction
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 3811184)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (16-AUG-2022) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 3811184)
+  AUTHORS   Zhao,S., Feng,J.-X. and Li,C.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (01-MAR-2022) College of Life Science and Technology,
+            Guangxi University, 100 Daxue Road, Nanning, Guangxi 530004, China
+REFERENCE   4  (bases 1 to 3811184)
+  AUTHORS   Feng,J.-X. and Huang,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (07-SEP-2016) Science and Technology, BGI, No. 11 Beishan
+            Industrial Zone, Yantian Dist., Shenzhen, Guangdong 518083, China
+COMMENT     PROVISIONAL REFSEQ: This record has not yet been subject to final
+            NCBI review. The reference sequence is identical to CM041260.
+            
+            ##Genome-Assembly-Data-START##
+            Assembly Method        :: FALCON v. 0.3; Celera Assembler v. 8.3
+            Genome Representation  :: Full
+            Expected Final Version :: No
+            Genome Coverage        :: 327.0x
+            Sequencing Technology  :: PacBio Sequel
+            ##Genome-Assembly-Data-END##
+            
+            ##Genome-Annotation-Data-START##
+            Annotation Provider :: INSDC submitter
+            Annotation Status   :: Full annotation
+            Annotation Pipeline :: Eukaryotic Annotation Propagation Pipeline
+            ##Genome-Annotation-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..3811184
+                     /organism="Penicillium oxalicum"
+                     /mol_type="genomic DNA"
+                     /strain="HP7-1"
+                     /isolation_source="Soil at a depth of 50 to 200 mm"
+                     /db_xref="taxon:69781"
+                     /chromosome="V"
+                     /country="China: Huaping National Natural Reserve, Guilin,
+                     Guangxi"
+                     /lat_lon="25.35 N 109.54 E"
+                     /collection_date="2008-10-30"
+CONTIG      join(JRVD02000005.1:1..3811184)
+//
+
